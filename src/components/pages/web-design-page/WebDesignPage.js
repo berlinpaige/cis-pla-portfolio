@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './WebDesignPage.css';
-import { Switch, Route, Link } from 'react-router-dom';
 import WebDesignHeader from './web-design-header/WebDesignHeader';
 import WebDesignMain from './web-design-main/WebDesignMain';
 
