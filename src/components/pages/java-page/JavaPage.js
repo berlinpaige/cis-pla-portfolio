@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import './JavaPage.css';
+import { Switch, Route, Link } from 'react-router-dom';
+import JavaHeader from './java-header/JavaHeader';
+import JavaMain from './java-main/JavaMain';
 
 class JavaPage extends Component {
     render() {
         return (
             <div>
-                <p>I am Java</p>
+                <JavaHeader />
+                <JavaMain />
             </div>
         );
     }

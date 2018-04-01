@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import './CSPrinciplesPage.css';
+import { Switch, Route, Link } from 'react-router-dom';
+import CSPrinciplesHeader from './cs-principles-header/CSPrinciplesHeader';
+import CSPrinciplesMain from './cs-principles-main/CSPrinciplesMain';
 
 class CSPrinciplesPage extends Component {
     render() {
         return (
             <div>
-                <p>I am CS Principles</p>
+                <CSPrinciplesHeader />
+                <CSPrinciplesMain />
             </div>
         );
     }
