@@ -1,21 +1,18 @@
 import React from 'react';
-import logo from '../../../assets/logo.svg';
 import './BasePage.css';
-import JavaPage from '../java-page/JavaPage';
-import WebDesignPage from '../web-design-page/WebDesignPage';
-import CSPrinciplesPage from '../cs-principles-page/CSPrinciplesPage';
+import Header from '../../header/Header';
+import Main from '../../main/Main';
+import { BrowserRouter } from 'react-router-dom';
 
 export default function BasePage() {
     return (
         <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <h1 className="App-title">Welcome to React</h1>
-            </header>
-            <p className="App-intro">testing a deploy</p>
-            <JavaPage />
-            <WebDesignPage />
-            <CSPrinciplesPage />
+            <BrowserRouter>
+                <div>
+                    <Header />
+                    <Main />
+                </div>
+            </BrowserRouter>
         </div>
     );
 }
