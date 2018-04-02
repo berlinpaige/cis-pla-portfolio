@@ -6,7 +6,8 @@ class TaskOneSubpage extends Component {
     render() {
         return (
             <div>
-                <p>Im the task one subpage</p>
+                <h1>Write standards-compliant HTML and CSS web pages using web page and image editing software</h1>
+                <p>Use Ryder</p>
             </div>
         );
     }

@@ -11,36 +11,36 @@ export const WEB_DESIGN_PATH = {
     linkName: "Web Design Home",
 };
 export const WEB_DESIGN_TASK_ONE_PATH = {
-    path: "/webdesign/task1",
-    linkName: "Subtask One",
+    path: "/webdesign/learning-objective-1",
+    linkName: "Learning Objective One",
 };
 export const WEB_DESIGN_TASK_TWO_PATH = {
-    path: "/webdesign/task2",
-    linkName: "Subtask Two",
+    path: "/webdesign/learning-objective-2",
+    linkName: "Learning Objective Two",
 };
 export const WEB_DESIGN_TASK_THREE_PATH = {
-    path: "/webdesign/task3",
-    linkName: "Subtask Three",
+    path: "/webdesign/learning-objective-3",
+    linkName: "Learning Objective Three",
 };
 export const WEB_DESIGN_TASK_FOUR_PATH = {
-    path: "/webdesign/task4",
-    linkName: "Subtask Four",
+    path: "/webdesign/learning-objective-4",
+    linkName: "Learning Objective Four",
 };
 export const WEB_DESIGN_TASK_FIVE_PATH = {
-    path: "/webdesign/task5",
-    linkName: "Subtask Five",
+    path: "/webdesign/learning-objective-5",
+    linkName: "Learning Objective Five",
 };
 export const WEB_DESIGN_TASK_SIX_PATH = {
-    path: "/webdesign/task6",
-    linkName: "Subtask Six",
+    path: "/webdesign/learning-objective-6",
+    linkName: "Learning Objective Six",
 };
 export const WEB_DESIGN_TASK_SEVEN_PATH = {
-    path: "/webdesign/task7",
-    linkName: "Subtask Seven",
+    path: "/webdesign/learning-objective-7",
+    linkName: "Learning Objective Seven",
 };
 export const WEB_DESIGN_TASK_EIGHT_PATH = {
-    path: "/webdesign/task8",
-    linkName: "Subtask Eight",
+    path: "/webdesign/learning-objective-8",
+    linkName: "Learning Objective Eight",
 };
 
 
@@ -62,44 +62,44 @@ export const JAVA_PATH = {
     linkName: "Java Home",
 };
 export const JAVA_TASK_ONE_PATH = {
-    path: "/java/task1",
-    linkName: "Subtask One",
+    path: "/java/learning-objective-1",
+    linkName: "Learning Objective One",
 };
 export const JAVA_TASK_TWO_PATH = {
-    path: "/java/task2",
-    linkName: "Subtask Two",
+    path: "/java/learning-objective-2",
+    linkName: "Learning Objective Two",
 };
 export const JAVA_TASK_THREE_PATH = {
-    path: "/java/task3",
-    linkName: "Subtask Three",
+    path: "/java/learning-objective-3",
+    linkName: "Learning Objective Three",
 };
 export const JAVA_TASK_FOUR_PATH = {
-    path: "/java/task4",
-    linkName: "Subtask Four",
+    path: "/java/learning-objective-4",
+    linkName: "Learning Objective Four",
 };
 export const JAVA_TASK_FIVE_PATH = {
-    path: "/java/task5",
-    linkName: "Subtask Five",
+    path: "/java/learning-objective-5",
+    linkName: "Learning Objective Five",
 };
 export const JAVA_TASK_SIX_PATH = {
-    path: "/java/task6",
-    linkName: "Subtask Six",
+    path: "/java/learning-objective-6",
+    linkName: "Learning Objective Six",
 };
 export const JAVA_TASK_SEVEN_PATH = {
-    path: "/java/task7",
-    linkName: "Subtask Seven",
+    path: "/java/learning-objective-7",
+    linkName: "Learning Objective Seven",
 };
 export const JAVA_TASK_EIGHT_PATH = {
-    path: "/java/task8",
-    linkName: "Subtask Eight",
+    path: "/java/learning-objective-8",
+    linkName: "Learning Objective Eight",
 };
 export const JAVA_TASK_NINE_PATH = {
-    path: "/java/task9",
-    linkName: "Subtask Nine",
+    path: "/java/learning-objective-9",
+    linkName: "Learning Objective Nine",
 };
 export const JAVA_TASK_TEN_PATH = {
-    path: "/java/task10",
-    linkName: "Subtask Ten",
+    path: "/java/learning-objective-10",
+    linkName: "Learning Objective Ten",
 };
 
 export const JAVA_NAVIGATION_LIST = [
@@ -122,44 +122,44 @@ export const CS_PRINCIPLES_PATH = {
     linkName: "CS Principles Home",
 };
 export const CS_PRINCIPLES_TASK_ONE_PATH = {
-    path: "/csprinciples/task1",
-    linkName: "Subtask One",
+    path: "/csprinciples/learning-objective-1",
+    linkName: "Learning Objective One",
 };
 export const CS_PRINCIPLES_TASK_TWO_PATH = {
-    path: "/csprinciples/task2",
-    linkName: "Subtask Two",
+    path: "/csprinciples/learning-objective-2",
+    linkName: "Learning Objective Two",
 };
 export const CS_PRINCIPLES_TASK_THREE_PATH = {
-    path: "/csprinciples/task3",
-    linkName: "Subtask Three",
+    path: "/csprinciples/learning-objective-3",
+    linkName: "Learning Objective Three",
 };
 export const CS_PRINCIPLES_TASK_FOUR_PATH = {
-    path: "/csprinciples/task4",
-    linkName: "Subtask Four",
+    path: "/csprinciples/learning-objective-4",
+    linkName: "Learning Objective Four",
 };
 export const CS_PRINCIPLES_TASK_FIVE_PATH = {
-    path: "/csprinciples/task5",
-    linkName: "Subtask Five",
+    path: "/csprinciples/learning-objective-5",
+    linkName: "Learning Objective Five",
 };
 export const CS_PRINCIPLES_TASK_SIX_PATH = {
-    path: "/csprinciples/task6",
-    linkName: "Subtask Six",
+    path: "/csprinciples/learning-objective-6",
+    linkName: "Learning Objective Six",
 };
 export const CS_PRINCIPLES_TASK_SEVEN_PATH = {
-    path: "/csprinciples/task7",
-    linkName: "Subtask Seven",
+    path: "/csprinciples/learning-objective-7",
+    linkName: "Learning Objective Seven",
 };
 export const CS_PRINCIPLES_TASK_EIGHT_PATH = {
-    path: "/csprinciples/task8",
-    linkName: "Subtask Eight",
+    path: "/csprinciples/learning-objective-8",
+    linkName: "Learning Objective Eight",
 };
 export const CS_PRINCIPLES_TASK_NINE_PATH = {
-    path: "/csprinciples/task9",
-    linkName: "Subtask Nine",
+    path: "/csprinciples/learning-objective-9",
+    linkName: "Learning Objective Nine",
 };
 export const CS_PRINCIPLES_TASK_TEN_PATH = {
-    path: "/csprinciples/task10",
-    linkName: "Subtask Ten",
+    path: "/csprinciples/learning-objective-10",
+    linkName: "Learning Objective Ten",
 };
 
 export const CS_PRINCIPLES_NAVIGATION_LIST = [

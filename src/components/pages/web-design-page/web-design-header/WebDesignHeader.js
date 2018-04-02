@@ -9,7 +9,7 @@ const WebDesignHeader = () => (
             <ul>
                 {
                     WEB_DESIGN_NAVIGATION_LIST.map(({path, linkName}) => (
-                        <div className="navlink" key={path}>
+                        <div className="navlinkWebDesign" key={path}>
                             <Link to={path}>{linkName}</Link>
                         </div>
                     ))

@@ -6,7 +6,8 @@ class TaskThreeSubpage extends Component {
     render() {
         return (
             <div>
-                <p>Im the task three subpage</p>
+                <h1>Analyze and evaluate the needs and contexts of businesses and users</h1>
+                <p>Discussing business needs and user need, describe activity feed</p>
             </div>
         );
     }
