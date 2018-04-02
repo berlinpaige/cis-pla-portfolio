@@ -11,20 +11,33 @@ import TaskEightSubpage from '../subpages/task-eight-subpage/TaskEightSubpage';
 import TaskNineSubpage from '../subpages/task-nine-subpage/TaskNineSubpage';
 import TaskTenSubpage from '../subpages/task-ten-subpage/TaskTenSubpage';
 
+import {
+    JAVA_TASK_ONE_PATH,
+    JAVA_TASK_TWO_PATH,
+    JAVA_TASK_THREE_PATH,
+    JAVA_TASK_FOUR_PATH,
+    JAVA_TASK_FIVE_PATH,
+    JAVA_TASK_SIX_PATH,
+    JAVA_TASK_SEVEN_PATH,
+    JAVA_TASK_EIGHT_PATH,
+    JAVA_TASK_NINE_PATH,
+    JAVA_TASK_TEN_PATH,
+} from '../../../../constants/navigationConstants.js'
+
 
 const JavaMain = () => (
     <div>
         <Switch>
-            <Route path='/java/task1' component={TaskOneSubpage}/>
-            <Route path='/java/task2' component={TaskTwoSubpage}/>
-            <Route path='/java/task3' component={TaskThreeSubpage}/>
-            <Route path='/java/task4' component={TaskFourSubpage}/>
-            <Route path='/java/task5' component={TaskFiveSubpage}/>
-            <Route path='/java/task6' component={TaskSixSubpage}/>
-            <Route path='/java/task7' component={TaskSevenSubpage}/>
-            <Route path='/java/task8' component={TaskEightSubpage}/>
-            <Route path='/java/task9' component={TaskNineSubpage}/>
-            <Route path='/java/task10' component={TaskTenSubpage}/>
+            <Route path={JAVA_TASK_ONE_PATH.path} component={TaskOneSubpage}/>
+            <Route path={JAVA_TASK_TWO_PATH.path} component={TaskTwoSubpage}/>
+            <Route path={JAVA_TASK_THREE_PATH.path} component={TaskThreeSubpage}/>
+            <Route path={JAVA_TASK_FOUR_PATH.path} component={TaskFourSubpage}/>
+            <Route path={JAVA_TASK_FIVE_PATH.path} component={TaskFiveSubpage}/>
+            <Route path={JAVA_TASK_SIX_PATH.path} component={TaskSixSubpage}/>
+            <Route path={JAVA_TASK_SEVEN_PATH.path} component={TaskSevenSubpage}/>
+            <Route path={JAVA_TASK_EIGHT_PATH.path} component={TaskEightSubpage}/>
+            <Route path={JAVA_TASK_NINE_PATH.path} component={TaskNineSubpage}/>
+            <Route path={JAVA_TASK_TEN_PATH.path} component={TaskTenSubpage}/>
         </Switch>
     </div>
 )

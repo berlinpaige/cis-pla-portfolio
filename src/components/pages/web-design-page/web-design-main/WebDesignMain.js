@@ -8,19 +8,29 @@ import TaskFiveSubpage from '../subpages/task-five-subpage/TaskFiveSubpage';
 import TaskSixSubpage from '../subpages/task-six-subpage/TaskSixSubpage';
 import TaskSevenSubpage from '../subpages/task-seven-subpage/TaskSevenSubpage';
 import TaskEightSubpage from '../subpages/task-eight-subpage/TaskEightSubpage';
+import {
+    WEB_DESIGN_TASK_ONE_PATH,
+    WEB_DESIGN_TASK_TWO_PATH,
+    WEB_DESIGN_TASK_THREE_PATH,
+    WEB_DESIGN_TASK_FOUR_PATH,
+    WEB_DESIGN_TASK_FIVE_PATH,
+    WEB_DESIGN_TASK_SIX_PATH,
+    WEB_DESIGN_TASK_SEVEN_PATH,
+    WEB_DESIGN_TASK_EIGHT_PATH,
+} from '../../../../constants/navigationConstants.js'
 
 
 const WebDesignMain = () => (
     <div>
         <Switch>
-            <Route path='/webdesign/task1' component={TaskOneSubpage}/>
-            <Route path='/webdesign/task2' component={TaskTwoSubpage}/>
-            <Route path='/webdesign/task3' component={TaskThreeSubpage}/>
-            <Route path='/webdesign/task4' component={TaskFourSubpage}/>
-            <Route path='/webdesign/task5' component={TaskFiveSubpage}/>
-            <Route path='/webdesign/task6' component={TaskSixSubpage}/>
-            <Route path='/webdesign/task7' component={TaskSevenSubpage}/>
-            <Route path='/webdesign/task8' component={TaskEightSubpage}/>
+            <Route path={WEB_DESIGN_TASK_ONE_PATH.path} component={TaskOneSubpage}/>
+            <Route path={WEB_DESIGN_TASK_TWO_PATH.path} component={TaskTwoSubpage}/>
+            <Route path={WEB_DESIGN_TASK_THREE_PATH.path} component={TaskThreeSubpage}/>
+            <Route path={WEB_DESIGN_TASK_FOUR_PATH.path} component={TaskFourSubpage}/>
+            <Route path={WEB_DESIGN_TASK_FIVE_PATH.path} component={TaskFiveSubpage}/>
+            <Route path={WEB_DESIGN_TASK_SIX_PATH.path} component={TaskSixSubpage}/>
+            <Route path={WEB_DESIGN_TASK_SEVEN_PATH.path} component={TaskSevenSubpage}/>
+            <Route path={WEB_DESIGN_TASK_EIGHT_PATH.path} component={TaskEightSubpage}/>
         </Switch>
     </div>
 )

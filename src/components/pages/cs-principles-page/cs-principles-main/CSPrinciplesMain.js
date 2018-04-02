@@ -11,20 +11,33 @@ import TaskEightSubpage from '../subpages/task-eight-subpage/TaskEightSubpage';
 import TaskNineSubpage from '../subpages/task-nine-subpage/TaskNineSubpage';
 import TaskTenSubpage from '../subpages/task-ten-subpage/TaskTenSubpage';
 
+import {
+    CS_PRINCIPLES_TASK_ONE_PATH,
+    CS_PRINCIPLES_TASK_TWO_PATH,
+    CS_PRINCIPLES_TASK_THREE_PATH,
+    CS_PRINCIPLES_TASK_FOUR_PATH,
+    CS_PRINCIPLES_TASK_FIVE_PATH,
+    CS_PRINCIPLES_TASK_SIX_PATH,
+    CS_PRINCIPLES_TASK_SEVEN_PATH,
+    CS_PRINCIPLES_TASK_EIGHT_PATH,
+    CS_PRINCIPLES_TASK_NINE_PATH,
+    CS_PRINCIPLES_TASK_TEN_PATH,
+} from '../../../../constants/navigationConstants.js'
+
 
 const CSPrinciplesMain = () => (
     <div>
         <Switch>
-            <Route path='/csprinciples/task1' component={TaskOneSubpage}/>
-            <Route path='/csprinciples/task2' component={TaskTwoSubpage}/>
-            <Route path='/csprinciples/task3' component={TaskThreeSubpage}/>
-            <Route path='/csprinciples/task4' component={TaskFourSubpage}/>
-            <Route path='/csprinciples/task5' component={TaskFiveSubpage}/>
-            <Route path='/csprinciples/task6' component={TaskSixSubpage}/>
-            <Route path='/csprinciples/task7' component={TaskSevenSubpage}/>
-            <Route path='/csprinciples/task8' component={TaskEightSubpage}/>
-            <Route path='/csprinciples/task9' component={TaskNineSubpage}/>
-            <Route path='/csprinciples/task10' component={TaskTenSubpage}/>
+            <Route path={CS_PRINCIPLES_TASK_ONE_PATH.path} component={TaskOneSubpage}/>
+            <Route path={CS_PRINCIPLES_TASK_TWO_PATH.path} component={TaskTwoSubpage}/>
+            <Route path={CS_PRINCIPLES_TASK_THREE_PATH.path} component={TaskThreeSubpage}/>
+            <Route path={CS_PRINCIPLES_TASK_FOUR_PATH.path} component={TaskFourSubpage}/>
+            <Route path={CS_PRINCIPLES_TASK_FIVE_PATH.path} component={TaskFiveSubpage}/>
+            <Route path={CS_PRINCIPLES_TASK_SIX_PATH.path} component={TaskSixSubpage}/>
+            <Route path={CS_PRINCIPLES_TASK_SEVEN_PATH.path} component={TaskSevenSubpage}/>
+            <Route path={CS_PRINCIPLES_TASK_EIGHT_PATH.path} component={TaskEightSubpage}/>
+            <Route path={CS_PRINCIPLES_TASK_NINE_PATH.path} component={TaskNineSubpage}/>
+            <Route path={CS_PRINCIPLES_TASK_TEN_PATH.path} component={TaskTenSubpage}/>
         </Switch>
     </div>
 )
