@@ -7,7 +7,7 @@ class TaskEightSubpage extends Component {
         return (
             <div>
                 <h1>Explain issues of web site management, maintenance and testing</h1>
-                <p>show jira tickets, describe test trategies, talk about testing search</p>
+                <h2>*view this as a rough draft: photos, styles, and revisions are still coming</h2>
             </div>
         );
     }
