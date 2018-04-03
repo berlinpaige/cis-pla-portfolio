@@ -6,7 +6,7 @@ class TaskEightSubpage extends Component {
     render() {
         return (
             <div>
-                <p>Im the task eight subpage</p>
+                <p>Describe computation with accurate and precise language, notation, or visualizations</p>
             </div>
         );
     }

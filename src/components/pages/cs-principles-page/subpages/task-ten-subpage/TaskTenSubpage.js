@@ -6,7 +6,7 @@ class TaskTenSubpage extends Component {
     render() {
         return (
             <div>
-                <p>Im the task ten subpage</p>
+                <p>Collaborate with others in solving computational problems and producing artifacts</p>
             </div>
         );
     }

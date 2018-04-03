@@ -6,7 +6,8 @@ class TaskSevenSubpage extends Component {
     render() {
         return (
             <div>
-                <p>Im the task seven subpage</p>
+                <p>Evaluate a proposed solution to a computational problem including locating and correcting 
+                    errors and justifying appropriateness and correctness</p>
             </div>
         );
     }

@@ -6,7 +6,8 @@ class TaskNineSubpage extends Component {
     render() {
         return (
             <div>
-                <p>Im the task nine subpage</p>
+                <p>Explain how the Internet functions, including underlying abstractions, cybersecurity 
+                    concerns,and how its characteristics influence systems built on it</p>
             </div>
         );
     }

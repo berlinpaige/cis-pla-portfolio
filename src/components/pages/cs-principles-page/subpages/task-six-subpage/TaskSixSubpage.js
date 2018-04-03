@@ -6,7 +6,8 @@ class TaskSixSubpage extends Component {
     render() {
         return (
             <div>
-                <p>Im the task six subpage</p>
+                <p>Develop, implement, and evaluate an algorithm for implementation in a program using
+                    appropriate mathematical and logical concepts, including abstraction to manage complexity</p>
             </div>
         );
     }
