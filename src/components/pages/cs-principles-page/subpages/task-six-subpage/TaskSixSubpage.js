@@ -11,7 +11,7 @@ class TaskSixSubpage extends Component {
 
                 <p>In my daily work, I use algorithms as a method of problem solving. Sometimes, I am able to use an 
                     algorithm from a library that was imported or even from the coding language itself. One example of 
-                    that might be javascript's sort method. In javascript, I can sort an array using .sort(). The browser 
+                    this would be javascript's sort method. In javascript, I can sort an array using .sort(). The browser 
                     determines which sorting algorithm is used, but I don't have to reinvent the wheel. Here's an example of 
                     using that method in practice:</p>
                     <pre>
@@ -22,12 +22,12 @@ console.log(fruits);
 //result
 Apple, Banana, Mango, Orange`}
                     </pre>
-                <p>However, the algorithm is not always availible to me, so sometimes I need to create the algorithm. </p>
-                <p>Let's do that now, for simplicity's sake, let's create a new example problem</p>
+                <p>However, the algorithm is not always available to me, so sometimes I need to create the algorithm. </p>
+                <p>Let's do that now. For simplicity's sake, let's create a new example problem</p>
                 <h2>Problem: Calculate the monthly paycheck of a salesperson at a local store</h2>
                 <ul>
                     <li>Every salesperson has a base salary</li>
-                    <li>The salesperson recieves a bonus at the end of the month based on the following criteria:
+                    <li>The salesperson receives a bonus at the end of the month based on the following criteria:
                         <ul>
                             <li>If the person has been with the store for 5 years or less, the bonus is $10 for each 
                                 year he or she worked there.</li>
@@ -35,12 +35,12 @@ Apple, Banana, Mango, Orange`}
                                 year he or she has worked there.</li>
                         </ul>
                     </li>
-                    <li>The salesperson can recieve an additional bonus with the following criteria:
+                    <li>The salesperson can receive an additional bonus with the following criteria:
                         <ul>
                             <li>If the total sales made by the person for the month are more than $5,000 but less than $10,000, 
-                                he or she recieves 3% commission on the sale</li>
-                            <li>If the total sales made by the person for the month are atleast $10,000, 
-                                he or she recieves 6% commission on the sale</li>
+                                he or she receives 3% commission on the sale</li>
+                            <li>If the total sales made by the person for the month are at least $10,000, 
+                                he or she receives 6% commission on the sale</li>
                         </ul>
                     </li>
                 </ul>

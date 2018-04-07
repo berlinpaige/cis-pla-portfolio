@@ -20,16 +20,16 @@ class TaskTenSubpage extends Component {
                 <p></p>
                 <h2>The home page</h2>
                 <p>The home page alone has been a collaboration across many teams and people. The page is built using a 
-                    componenet structure that allows for the content team to mix and match the way content is displayed and 
+                    component structure that allows for the content team to mix and match the way content is displayed and 
                     interacted with based on their goals. Each of the sections on the homepage are called widgets and they 
-                    are added and removed freely to tell the right story. THe content within each of these widgets is created 
+                    are added and removed freely to tell the right story. The content within each of these widgets is created 
                     by the photo and creative teams. Then the content is chosen and uploaded via the content and marketing teams. 
                     The widgets themselves were a collaboration effort between the platform and front end teams. These widgets 
                     also exist on apps, which requires a collaboration with the front end engineers familiar with the app release 
                     process. Before any code goes into production, it is reviewed by the QA team, tests are written to reduce 
-                    code volitility and people comb through the experience looking for strange user interactions. Each section of 
-                    this homepage has been owned by different product teams. Growth owns the registration widget, discovery owns 
-                    the search section, menu, and subsequent navigation, and engagement owns the widgets and feeds. Nearly every 
+                    code volatility and people comb through the experience looking for strange user interactions. Each section of 
+                    this homepage has been owned by different product teams. Growth owns the registration widget, Discovery owns 
+                    the search section, menu, and subsequent navigation, and Engagement owns the widgets and feeds. Nearly every 
                     engineer, every product team, and every functional team across the company has had a hand in creating this home 
                     page experience.</p>
             </div>

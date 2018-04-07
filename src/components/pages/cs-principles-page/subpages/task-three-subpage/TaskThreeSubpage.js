@@ -10,7 +10,7 @@ class TaskThreeSubpage extends Component {
                 <p>Algorithms are patterns for completing a task in an efficient way</p>
                 <p>I am using a very simple version of an algorithm within the navigation 
                     for this site. The CS Principles Page (that you are currently on) is made up 
-                    of ten pieces of subnavigation. One way I could have written this navigation 
+                    of ten pieces of sub-navigation. One way I could have written this navigation 
                     would have looked like this: </p>
                 <pre>                    
 {`
@@ -68,8 +68,8 @@ CS_PRINCIPLES_NAVIGATION_LIST.map(({path, linkName}) => (
                 <p>Information management principles include avoiding collecting duplicate information, 
                     share and re-use of information, ensuring information is complete and accurate, supporting 
                     access to information, and safeguarding information.</p>
-                <p>This website is used to display information as completely an accurately as possible. 
-                    It is a simple example though, so let me dive breifly into projects that require collecting 
+                <p>This website is used to display information as completely and accurately as possible. 
+                    It is a simple example though, so let me dive briefly into projects that require collecting 
                     and using information from others.</p>
                 <p>At my current company, we collect information from our users. That information includes names, 
                     passwords, email addresses, credit card information, etc. We have systems in place to reduce 

@@ -9,7 +9,7 @@ const CSPrinciplesHeader = () => (
             <ul>
                 {
                     CS_PRINCIPLES_NAVIGATION_LIST.map(({path, linkName}) => (
-                        <div className="navlink" key={path}>
+                        <div className="navlinkCSPrinciples" key={path}>
                             <Link to={path}>{linkName}</Link>
                         </div>
                     ))

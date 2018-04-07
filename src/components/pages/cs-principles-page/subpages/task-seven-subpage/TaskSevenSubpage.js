@@ -8,11 +8,10 @@ class TaskSevenSubpage extends Component {
             <div>
                 <h1>Evaluate a proposed solution to a computational problem including locating and correcting 
                     errors and justifying appropriateness and correctness</h1>
-                <p>Dubugging is common practice in my daily job. Often a proposed solution can be found to have 
-                    error once it is implemented and a bug is found. However, some bugs are easier to spot than others 
-                    and some go unnoticed until a user experiences the issue. Making mistakes is unavoidable, however, 
-                    there are ways we can attempt mitigate these oversights in practice. One thing I always try to remember 
-                    when writing new code is to test all scenarios; don't assume there will always be a happy path.</p>
+                <p>Debugging is common practice in my daily job. Often a proposed solution can be found to have an error 
+                    after it has been implemented. Some bugs are easier to spot than others, while some go unnoticed 
+                    until a user experiences the issue. Making mistakes is unavoidable, however, as engineers, we must 
+                    aim to solve a problem in a way that mitigates the error risk.</p>
                 <p>Even though there are many ways to solve a problem, the approach you take must correctly use all 
                     concepts and techniques.</p>
                 <h2>Let's take a look at an example:</h2>
@@ -44,14 +43,14 @@ default:
                 <p>However,</p>
                 <p>The grade is C.</p>
                 <p>The grade is D.</p>
-                <p>The grade is E.</p>
+                <p>The grade is F.</p>
                 <p>The grade is invalid</p>
                 <p>are also printed.</p>
-                <p>But why? The problem is a partial understanding of how the switch structure works. 
-                    Specifically when no break statement is included. After executing the statement 
+                <p>But why? The problem is a partial misunderstanding of how the switch structure works, 
+                    specifically when no break statement is included. After executing the statement 
                     associated with the matching case label, execution continues with the statements 
                     associated with the next case label. In this example, execution continues with all 
-                    the remaining statements in teh switch structure, resulting in the printing of four 
+                    the remaining statements in the switch structure, resulting in the printing of four 
                     unintended lines.</p>
                 <p>The correct program is as follows:</p>
                 <pre>
@@ -78,9 +77,9 @@ default:
 }
 `}
                 </pre>
-                <p>Believe it or not, this one kind of bug has gotten my coworkers and I into trouble in 
-                    more complex situations. It can be a tough one to spot and certainly offers a "doh" moment 
-                    for a season programmer</p>
+                <p>Believe it or not, this particular kind of bug has stumped my coworkers and I 
+                    in past complex situations. It can be a tough one to spot and certainly offers 
+                    a "doh" moment for a seasoned programmer</p>
 
             </div>
         );
