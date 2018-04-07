@@ -13,7 +13,8 @@ class TaskThreeSubpage extends Component {
                     of ten pieces of subnavigation. One way I could have written this navigation 
                     would have looked like this: </p>
                 <pre>                    
-{`<div className="navlink">
+{`
+<div className="navlink">
     <Link to='/csprinciples'>CS Principles Home</Link>
 </div>
 <div className="navlink">
@@ -45,18 +46,19 @@ class TaskThreeSubpage extends Component {
 </div>
 <div className="navlink">
     <Link to='/csprinciples/learning-objective-10'>Subtask Ten</Link>
-</div>`}
+</div>
+`}
                 </pre>
                 <p>pretty repetitive, right?</p>
                 <p>So a solution following algorithmic principles looks more like this:</p>
                 <pre>
-                {
-                    `CS_PRINCIPLES_NAVIGATION_LIST.map(({path, linkName}) => (
-                        <div className="navlink" key={path}>
-                            <Link to={path}>{linkName}</Link>
-                        </div>
-                    ))`
-                }
+{`
+CS_PRINCIPLES_NAVIGATION_LIST.map(({path, linkName}) => (
+    <div className="navlink" key={path}>
+        <Link to={path}>{linkName}</Link>
+    </div>
+))
+`}
                 </pre>
                 <p>In the new example, we are looping through an array of objects that contain 
                     the path and the linkName and outputting a JSX representation of the desired 
