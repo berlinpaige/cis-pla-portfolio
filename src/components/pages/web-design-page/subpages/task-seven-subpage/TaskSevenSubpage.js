@@ -7,22 +7,28 @@ class TaskSevenSubpage extends Component {
         return (
             <div>
                 <h1>Create a web site for a client that meets their needs</h1>
-                <h2>*view this as a rough draft: photos, styles, and revisions are still coming</h2>
 
-                <p>I have created many sites based on client needs throughout my career. One of
-                my favorite examples of this was a simple site that I created for American Airlines</p>
-
-                <h3>The ask: create a site for The Bonnie Award before the winner is announced</h3>
-
-                <p>I like this example because the ask and the website are simple. The website required
-                    basic information and basic navigation, which allowed for the content to be presented
-                    in an aesthetically pleasing, yet elegant way.</p>
-
-                <p>This website needed a section to play video, a description of the award, and some 
-                    information about the award inspiration and sponsors. The result was a clean html5 and css3
-                    (no additional libraries needed) site with a few simple links and subtle animation. 
-                    See the finished product here:</p>
-                <h2><a href="http://www.thebonnieaward.com/">The Bonnie Award Website Link</a></h2>
+                <p>I have created many sites based on client needs throughout my career.</p>
+                <p>One of my favorite examples of this was a simple site that I created for 
+                American Airlines.</p>
+                <p>The task: create a site for The Bonnie Award before the winner is announced:</p>
+                <p>I like this example because the task and the website are simple. The website 
+                    required basic information and basic navigation, which allowed for the content 
+                    to be presented in an aesthetically pleasing, yet elegant way.</p>
+                <p>This website needed a section to play video, a description of the award, 
+                    and some information about the award inspiration and sponsors. The result was a 
+                    clean HTML and CSS (no additional libraries needed) site with a few simple links 
+                    and subtle animation.</p>
+                <p>In this particular project, working with the customer was simple. The scope was 
+                    thoroughly outlined and little back-and-forth communication was necessary. I 
+                    have had alternative experiences, however. When working with Hershey on their 
+                    candy sites, a high amount of collaboration was required. We had several phone 
+                    conferences debating the design of each site before the development phase. 
+                    In those experiences, it was important to present a strong case for the design 
+                    choices but to also keep an open mind to their feedback and needs. When someone 
+                    is paying you for your services, one must strike a balance between the client’s 
+                    requests and your solutions. Ultimately, they hired you because you are the expert, 
+                    not them.</p>
             </div>
         );
     }
