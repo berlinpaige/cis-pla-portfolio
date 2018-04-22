@@ -180,5 +180,5 @@ export const MAIN_NAVIGATION_LIST = [
     HOME_PATH,
     CS_PRINCIPLES_PATH,
     WEB_DESIGN_PATH,
-    JAVA_PATH,
+    // JAVA_PATH,
 ];

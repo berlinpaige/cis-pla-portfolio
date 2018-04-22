@@ -1,0 +1,82 @@
+.pinkWrapper {
+    /*background-color: #F6CBDF;*/
+    background: rgb(248,218,232);
+    /* Safari 4, Chrome 1-9, iOS 3.2-4.3, Android 2.1-3.0 */
+    background-image:
+        -webkit-gradient(linear, 90deg, rgba(248,218,232,1) 0%, rgba(246,203,223,1) 20%, rgba(221,182,200,1) 85%);
+      
+      /* Safari 5.1, iOS 5.0-6.1, Chrome 10-25, Android 4.0-4.3 */
+    background-image:
+        -webkit-linear-gradient(90deg, rgba(248,218,232,1) 0%, rgba(246,203,223,1) 20%, rgba(221,182,200,1) 85%);
+
+      /* Firefox 3.6 - 15 */
+    background-image:
+        -moz-linear-gradient(90deg, rgba(248,218,232,1) 0%, rgba(246,203,223,1) 20%, rgba(221,182,200,1) 85%);
+
+      /* Opera 11.1 - 12 */
+    background-image:
+        -o-linear-gradient(90deg, rgba(248,218,232,1) 0%, rgba(246,203,223,1) 20%, rgba(221,182,200,1) 85%);
+
+      /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
+    background-image:
+        linear-gradient(90deg, rgba(248,218,232,1) 0%, rgba(246,203,223,1) 20%, rgba(221,182,200,1) 85%);
+
+}
+
+.blueWrapper {
+    /*background-color: #d8e6e7;*/
+    background: rgb(216,230,231);
+
+    background: linear-gradient(90deg, rgba(216,230,231,1) 0%, rgba(208,219,225,1) 78%);
+
+    /* Safari 4, Chrome 1-9, iOS 3.2-4.3, Android 2.1-3.0 */
+    background-image:
+        -webkit-gradient(linear, 90deg, rgba(216,230,231,1) 0%, rgba(208,219,225,1) 78%);
+      
+      /* Safari 5.1, iOS 5.0-6.1, Chrome 10-25, Android 4.0-4.3 */
+    background-image:
+        -webkit-linear-gradient(90deg, rgba(216,230,231,1) 0%, rgba(208,219,225,1) 78%);
+
+      /* Firefox 3.6 - 15 */
+    background-image:
+        -moz-linear-gradient(90deg, rgba(216,230,231,1) 0%, rgba(208,219,225,1) 78%);
+
+      /* Opera 11.1 - 12 */
+    background-image:
+        -o-linear-gradient(90deg, rgba(216,230,231,1) 0%, rgba(208,219,225,1) 78%);
+
+      /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
+    background-image:
+        linear-gradient(90deg, rgba(216,230,231,1) 0%, rgba(208,219,225,1) 78%);
+
+}
+
+.contentWrapper {
+    max-width: 50rem;
+    margin: 0 auto;
+    min-height: 30rem;
+    position: relative;
+}
+
+.card {
+    width: 30rem;
+    height: 20rem;
+    background-color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 1.5rem;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%); /* Safari & Chrome */
+    -moz-transform: translate(-50%, -50%); /* Firefox */
+    -ms-transform: translate(-50%, -50%); /* Internet Explorer */
+    -o-transform: translate(-50%, -50%); /* Opera */
+}
+
+.pinkWrapper .card {
+    box-shadow: #ac8e9c 8px 8px 9px;
+}
+
+.blueWrapper .card {
+    box-shadow: #acb8b8 8px 8px 9px;
+}
