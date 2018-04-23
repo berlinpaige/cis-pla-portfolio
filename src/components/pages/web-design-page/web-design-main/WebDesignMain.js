@@ -18,7 +18,8 @@ import {
     WEB_DESIGN_TASK_SEVEN_PATH,
     WEB_DESIGN_TASK_EIGHT_PATH,
 } from '../../../../constants/navigationConstants.js'
-
+import FooterImagePath from '../../../../assets/images/macaroons.jpg';
+import './WebDesignMain.css';
 
 const WebDesignMain = () => (
     <div>
@@ -32,6 +33,8 @@ const WebDesignMain = () => (
             <Route path={WEB_DESIGN_TASK_SEVEN_PATH.path} component={TaskSevenSubpage}/>
             <Route path={WEB_DESIGN_TASK_EIGHT_PATH.path} component={TaskEightSubpage}/>
         </Switch>
+        <img className="footerImageWD" src={FooterImagePath} alt="footer" />
+
     </div>
 )
 

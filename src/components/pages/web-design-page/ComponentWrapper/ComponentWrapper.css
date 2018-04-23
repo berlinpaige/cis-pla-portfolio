@@ -56,21 +56,42 @@
     margin: 0 auto;
     min-height: 30rem;
     position: relative;
+    padding: 2rem;
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    display : flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items : center;
 }
 
 .card {
     width: 30rem;
-    height: 20rem;
+    min-height: 20rem;
     background-color: #FFF;
-    position: absolute;
-    top: 50%;
-    left: 50%;
     padding: 1.5rem;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%); /* Safari & Chrome */
-    -moz-transform: translate(-50%, -50%); /* Firefox */
-    -ms-transform: translate(-50%, -50%); /* Internet Explorer */
-    -o-transform: translate(-50%, -50%); /* Opera */
+    margin: 0 auto;
+}
+
+.header {
+    color: #89717c;
+}
+
+.isVerticallyCentered {
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    display : flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items : center;
 }
 
 .pinkWrapper .card {

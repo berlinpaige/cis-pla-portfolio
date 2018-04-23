@@ -6,10 +6,10 @@ class TaskEightSubpage extends Component {
     render() {
         return (
             <div>
-                <ComponentWrapper wrapperClass="blueWrapper">
+                <ComponentWrapper wrapperClass="blueWrapper" isHeader={true}>
                     <h1>Explain issues of web site management, maintenance and testing</h1>
                 </ComponentWrapper>
-                <ComponentWrapper wrapperClass="pinkWrapper">
+                <ComponentWrapper isVerticallyCentered={true} wrapperClass="pinkWrapper">
                     <p>Technology is always moving so quickly. A website or app requires maintenance 
                         in order to stay relevant with this fast-paced industry, keeping the business 
                         that the website or app is representing relevant as well. Website maintenance 
@@ -20,22 +20,24 @@ class TaskEightSubpage extends Component {
                         required to these areas once the product is live in production ultimately depends 
                         on how often new code or content is being introduced.</p>
                 </ComponentWrapper>
-                <ComponentWrapper wrapperClass="blueWrapper">
-                    <p>I created sites that typically fall into three categories:</p>
-                    <ul>
-                        <li>
-                            <p>A campaign site that has no changes once launched</p>
-                        </li>
-                        <li>
-                            <p>A site that has few if any code changes once launched, but has 
-                                continues content additions and updates</p>
-                        </li>
-                        <li>
-                            <p>New Product features launched continuously</p>
-                        </li>
-                    </ul>
+                <ComponentWrapper isVerticallyCentered={true} wrapperClass="blueWrapper">
+                    <div>
+                        <p className="largeText">I created sites that typically fall into three categories:</p>
+                        <ul>
+                            <li>
+                                <p>A campaign site that has no changes once launched</p>
+                            </li>
+                            <li>
+                                <p>A site that has few if any code changes once launched, but has 
+                                    continues content additions and updates</p>
+                            </li>
+                            <li>
+                                <p>New Product features launched continuously</p>
+                            </li>
+                        </ul>
+                    </div>
                 </ComponentWrapper>
-                <ComponentWrapper wrapperClass="pinkWrapper">
+                <ComponentWrapper isVerticallyCentered={true} wrapperClass="pinkWrapper">
                     <p>In the case of the campaign site that has no changes once launched, 
                         this requires the least amount of maintenance. They often live for a 
                         few months for the length of the campaign, then are removed from the 
@@ -43,7 +45,7 @@ class TaskEightSubpage extends Component {
                         live on the internet are a campaign site for Hotels.com and a campaign site 
                         for Braintree/Tour de Tech.</p>
                 </ComponentWrapper>
-                <ComponentWrapper wrapperClass="blueWrapper">
+                <ComponentWrapper isVerticallyCentered={true} wrapperClass="blueWrapper">
                     <p>In the case of a site that has few code changes but many content changes, 
                         a little more maintenance is required. This mostly falls into the categories of 
                         software updates, speed, SEO, and security. In this case, there is often a person 
@@ -52,7 +54,7 @@ class TaskEightSubpage extends Component {
                         determined in the working contract. A few sites that I've built that fall into 
                         this category are Ryder and Hershey sites.</p>
                 </ComponentWrapper>
-                <ComponentWrapper wrapperClass="pinkWrapper">
+                <ComponentWrapper isVerticallyCentered={true} wrapperClass="pinkWrapper">
                     <p>The last category is the one that most tech companies fall into. At my current 
                         company, we continuously build and add features to the existing codebase and site. 
                         This requires constant maintenance. It also requires that we stay up to date on the 
@@ -60,12 +62,14 @@ class TaskEightSubpage extends Component {
                         bugs to be fixed. These are prioritized and addressed accordingly. The current sites 
                         I work on in this fashion are craftsy.com and unlimited.craftsy.com.</p>
                 </ComponentWrapper>
-                <ComponentWrapper wrapperClass="blueWrapper">
-                    <p>Website Management:</p>
-                    <p>I think of this as content management and product management since the technical 
-                        aspects of managing a website or app fall into the category of site maintenance.</p>
+                <ComponentWrapper isVerticallyCentered={true} wrapperClass="blueWrapper">
+                    <div>
+                        <p className="largeText">Website Management:</p>
+                        <p className="largeText">I think of this as content management and product management since the technical 
+                            aspects of managing a website or app fall into the category of site maintenance.</p>
+                    </div>
                 </ComponentWrapper>
-                <ComponentWrapper wrapperClass="pinkWrapper">
+                <ComponentWrapper isVerticallyCentered={true} wrapperClass="pinkWrapper">
                     <p>Content Management is the adding, removing, and updating of content on the website. 
                         This can be done by a non-technical team. They often use tools built by a technical 
                         team to do this. And often the content is uploaded with restraints to make sure the code 
@@ -76,19 +80,21 @@ class TaskEightSubpage extends Component {
                         content is well versed in web design and development and the implications the addition 
                         or change may have.</p>
                 </ComponentWrapper>
-                <ComponentWrapper wrapperClass="blueWrapper">
+                <ComponentWrapper isVerticallyCentered={true} wrapperClass="blueWrapper">
                     <p>The Product management team manages the priorities of new features added to the existing 
                         site or app. They tend to interpret the needs of the business and sometimes the user to find 
                         feature solutions. Then they orchestrate the correct teams to get the work completed. They manage 
                         the website from a business perspective.</p>
                 </ComponentWrapper>
-                <ComponentWrapper wrapperClass="pinkWrapper">
-                    <p>Website testing:</p>
-                    <p>Testing is an important and often heavily debated concept on the engineering team. 
-                        How many tests do you write? Which tests are most important? When do you fire the 
-                        tests? Why are the tests always broken?</p>
+                <ComponentWrapper isVerticallyCentered={true} wrapperClass="pinkWrapper">
+                    <div>
+                        <p className="largeText">Website testing:</p>
+                        <p className="largeText">Testing is an important and often heavily debated concept on the engineering team. 
+                            How many tests do you write? Which tests are most important? When do you fire the 
+                            tests? Why are the tests always broken?</p>
+                    </div>
                 </ComponentWrapper>
-                <ComponentWrapper wrapperClass="blueWrapper">
+                <ComponentWrapper isVerticallyCentered={true} wrapperClass="blueWrapper">
                     <p>On my front end team at Craftsy, we write functional tests and enzyme tests. 
                         The enzyme tests test the function within the code itself whereas the functional 
                         tests test the user interface of the code. We write both to varying levels of 

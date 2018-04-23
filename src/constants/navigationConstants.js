@@ -12,40 +12,40 @@ export const WEB_DESIGN_PATH = {
 };
 export const WEB_DESIGN_TASK_ONE_PATH = {
     path: "/webdesign/learning-objective-1",
-    linkName: "Learning Objective One",
+    linkName: "One",
 };
 export const WEB_DESIGN_TASK_TWO_PATH = {
     path: "/webdesign/learning-objective-2",
-    linkName: "Learning Objective Two",
+    linkName: "Two",
 };
 export const WEB_DESIGN_TASK_THREE_PATH = {
     path: "/webdesign/learning-objective-3",
-    linkName: "Learning Objective Three",
+    linkName: "Three",
 };
 export const WEB_DESIGN_TASK_FOUR_PATH = {
     path: "/webdesign/learning-objective-4",
-    linkName: "Learning Objective Four",
+    linkName: "Four",
 };
 export const WEB_DESIGN_TASK_FIVE_PATH = {
     path: "/webdesign/learning-objective-5",
-    linkName: "Learning Objective Five",
+    linkName: "Five",
 };
 export const WEB_DESIGN_TASK_SIX_PATH = {
     path: "/webdesign/learning-objective-6",
-    linkName: "Learning Objective Six",
+    linkName: "Six",
 };
 export const WEB_DESIGN_TASK_SEVEN_PATH = {
     path: "/webdesign/learning-objective-7",
-    linkName: "Learning Objective Seven",
+    linkName: "Seven",
 };
 export const WEB_DESIGN_TASK_EIGHT_PATH = {
     path: "/webdesign/learning-objective-8",
-    linkName: "Learning Objective Eight",
+    linkName: "Eight",
 };
 
 
 export const WEB_DESIGN_NAVIGATION_LIST = [
-    WEB_DESIGN_PATH,
+    // WEB_DESIGN_PATH,
     WEB_DESIGN_TASK_ONE_PATH,
     WEB_DESIGN_TASK_TWO_PATH,
     WEB_DESIGN_TASK_THREE_PATH,
@@ -123,47 +123,47 @@ export const CS_PRINCIPLES_PATH = {
 };
 export const CS_PRINCIPLES_TASK_ONE_PATH = {
     path: "/csprinciples/learning-objective-1",
-    linkName: "Learning Objective One",
+    linkName: "One",
 };
 export const CS_PRINCIPLES_TASK_TWO_PATH = {
     path: "/csprinciples/learning-objective-2",
-    linkName: "Learning Objective Two",
+    linkName: "Two",
 };
 export const CS_PRINCIPLES_TASK_THREE_PATH = {
     path: "/csprinciples/learning-objective-3",
-    linkName: "Learning Objective Three",
+    linkName: "Three",
 };
 export const CS_PRINCIPLES_TASK_FOUR_PATH = {
     path: "/csprinciples/learning-objective-4",
-    linkName: "Learning Objective Four",
+    linkName: "Four",
 };
 export const CS_PRINCIPLES_TASK_FIVE_PATH = {
     path: "/csprinciples/learning-objective-5",
-    linkName: "Learning Objective Five",
+    linkName: "Five",
 };
 export const CS_PRINCIPLES_TASK_SIX_PATH = {
     path: "/csprinciples/learning-objective-6",
-    linkName: "Learning Objective Six",
+    linkName: "Six",
 };
 export const CS_PRINCIPLES_TASK_SEVEN_PATH = {
     path: "/csprinciples/learning-objective-7",
-    linkName: "Learning Objective Seven",
+    linkName: "Seven",
 };
 export const CS_PRINCIPLES_TASK_EIGHT_PATH = {
     path: "/csprinciples/learning-objective-8",
-    linkName: "Learning Objective Eight",
+    linkName: "Eight",
 };
 export const CS_PRINCIPLES_TASK_NINE_PATH = {
     path: "/csprinciples/learning-objective-9",
-    linkName: "Learning Objective Nine",
+    linkName: "Nine",
 };
 export const CS_PRINCIPLES_TASK_TEN_PATH = {
     path: "/csprinciples/learning-objective-10",
-    linkName: "Learning Objective Ten",
+    linkName: "Ten",
 };
 
 export const CS_PRINCIPLES_NAVIGATION_LIST = [
-    CS_PRINCIPLES_PATH,
+    // CS_PRINCIPLES_PATH,
     CS_PRINCIPLES_TASK_ONE_PATH,
     CS_PRINCIPLES_TASK_TWO_PATH,
     CS_PRINCIPLES_TASK_THREE_PATH,

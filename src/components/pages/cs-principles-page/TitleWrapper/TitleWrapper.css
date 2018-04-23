@@ -1,0 +1,29 @@
+.titleWrapper {
+    width: 100%;
+    padding: 3rem;
+    position: relative;
+}
+
+.titleWrapperImage {
+    width: 65%;
+    display: block;
+}
+
+.titleWrapperTextWrapper {
+    width: 50%;
+    background-color: rgba(137,140,97, 0.7);
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    color: #FFF;
+    text-align: left;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 700px) {
+    .titleWrapperTextWrapper {
+        width: 45%;
+        left: 35%;
+        top: 50%;
+    }
+}

@@ -9,7 +9,7 @@ console.log('websiteData', websiteData);
 class WebDesignPage extends Component {
     render() {
         return (
-            <div>
+            <div className="webDesignPage">
                 <WebDesignHeader />
                 <WebDesignMain />
             </div>

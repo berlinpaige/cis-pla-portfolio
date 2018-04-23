@@ -10,6 +10,7 @@ import TaskSevenSubpage from '../subpages/task-seven-subpage/TaskSevenSubpage';
 import TaskEightSubpage from '../subpages/task-eight-subpage/TaskEightSubpage';
 import TaskNineSubpage from '../subpages/task-nine-subpage/TaskNineSubpage';
 import TaskTenSubpage from '../subpages/task-ten-subpage/TaskTenSubpage';
+import './CSPrinciplesMain.css';
 
 import {
     CS_PRINCIPLES_TASK_ONE_PATH,
@@ -39,6 +40,8 @@ const CSPrinciplesMain = () => (
             <Route path={CS_PRINCIPLES_TASK_NINE_PATH.path} component={TaskNineSubpage}/>
             <Route path={CS_PRINCIPLES_TASK_TEN_PATH.path} component={TaskTenSubpage}/>
         </Switch>
+        <div className="footer">
+        </div>
     </div>
 )
 

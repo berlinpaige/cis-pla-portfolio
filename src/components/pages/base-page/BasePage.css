@@ -1,10 +1,27 @@
 .App {
   text-align: center;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .App p, .App li, .App pre {
   text-align: left;
+}
+
+.App p {
+  font-size: 16px;
+}
+
+.App .smallerText {
+  font-size: 12px;
+}
+
+.App .smallestText {
+    font-size: 10px;
+}
+
+.App h1 {
+  font-size: 20px;
 }
 
 .App-logo {
@@ -25,9 +42,49 @@
 
 .App-intro {
   font-size: large;
-} 
+}
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@media screen and (min-width: 500px) {
+  .App h1 {
+    font-size: 1.5rem;
+  }
+
+  .App .smallestText {
+    font-size: 11px;
+  }
+
+  .App .largeText {
+    font-size: 3vw;
+  }
+
+  .App .largeText p {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .App p {
+    font-size: 18px;
+  }
+  .App .largeText {
+    font-size: 2.2vw;
+  }
+
+  .App .largeText p {
+    font-size: 2.2vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .App .largeText {
+    font-size: 1.2rem;
+  }
+
+  .App .smallerText {
+    font-size: 14px;
+  }
+
+  .App .largeText p {
+    font-size: 1.2rem;
+  }
 }

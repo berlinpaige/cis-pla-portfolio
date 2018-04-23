@@ -6,7 +6,7 @@ import CSPrinciplesMain from './cs-principles-main/CSPrinciplesMain';
 class CSPrinciplesPage extends Component {
     render() {
         return (
-            <div>
+            <div className="csPrinciplesPage">
                 <CSPrinciplesHeader />
                 <CSPrinciplesMain />
             </div>

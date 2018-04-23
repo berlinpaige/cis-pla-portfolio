@@ -4,5 +4,14 @@ ol {
 }
 
 ol li {
-    margin-right: 1.1rem;
+    margin-left: 1.1rem;
+}
+
+.listItemTitle {
+    font-weight: bold;
+}
+
+.planningImage {
+    width: 100%;
+    display: block;
 }

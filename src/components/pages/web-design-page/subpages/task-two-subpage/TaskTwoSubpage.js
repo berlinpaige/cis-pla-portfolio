@@ -1,28 +1,36 @@
 import React, { Component } from 'react';
 import './TaskTwoSubpage.css';
 import ComponentWrapper from '../../ComponentWrapper/ComponentWrapper';
+import PlanningImagePath from '../../../../../assets/images/planning.jpg';
+import MapsImagePath from '../../../../../assets/images/maps.jpg';
+import CUImagePath from '../../../../../assets/images/craftsyUnlimited.jpg';
+import ChartImagePath from '../../../../../assets/images/chart.jpg';
+import Fade from 'react-reveal/Fade';
 
 class TaskTwoSubpage extends Component {
     render() {
         return (
             <div>
-                <ComponentWrapper wrapperClass="blueWrapper">
+                <ComponentWrapper wrapperClass="blueWrapper" isHeader={true}>
                     <h1>Explain the web design and development process</h1>
                 </ComponentWrapper>
-                <ComponentWrapper wrapperClass="pinkWrapper">
+                <ComponentWrapper wrapperClass="pinkWrapper" isVerticallyCentered={true}>
                     <p>While I'm sure there is an official web design and development process, I 
                         find that in the real world (i.e. not the classroom), this process is different 
                         per person, department, team, and company. This is a process that is constantly 
                         being iterated upon. In fact, at my company, we discuss this process at length 
                         in project "retros" to see what can be improved upon with the next project.</p>
                 </ComponentWrapper>
-                <ComponentWrapper wrapperClass="blueWrapper">
-                <p>At my company, I have noticed a few patterns that seem to have reflected well in 
-                    the final product.</p>
+                <Fade>
+                    <img className="planningImage" src={PlanningImagePath} alt="visual enhancer" />
+                </Fade>
+                <ComponentWrapper wrapperClass="blueWrapper" isVerticallyCentered={true}>
+                    <p className="largeText">At my company, I have noticed a few patterns that seem to have reflected well in 
+                        the final product:</p>
                 </ComponentWrapper>
                 <ol>
-                    <ComponentWrapper wrapperClass="pinkWrapper">
-                        <li>
+                    <ComponentWrapper isVerticallyCentered={true} wrapperClass="pinkWrapper">
+                        <li className="largeText">
                             <p className="listItemTitle">
                                 Identify goals of the project
                             </p>
@@ -32,8 +40,8 @@ class TaskTwoSubpage extends Component {
                             </p>
                         </li>
                     </ComponentWrapper>
-                    <ComponentWrapper wrapperClass="blueWrapper">
-                        <li>
+                    <ComponentWrapper isVerticallyCentered={true} wrapperClass="blueWrapper">
+                        <li className="largeText">
                             <p className="listItemTitle">
                                 Define the scope
                             </p>
@@ -42,8 +50,8 @@ class TaskTwoSubpage extends Component {
                             </p>
                         </li>
                     </ComponentWrapper>
-                    <ComponentWrapper wrapperClass="pinkWrapper">
-                        <li>
+                    <ComponentWrapper isVerticallyCentered={true} wrapperClass="pinkWrapper">
+                        <li className="largeText">
                             <p className="listItemTitle">
                                 Sitemap and/or wireframe creation.
                             </p>
@@ -53,8 +61,11 @@ class TaskTwoSubpage extends Component {
                             </p>
                         </li>
                     </ComponentWrapper>
-                    <ComponentWrapper wrapperClass="blueWrapper">
-                        <li>
+                    <Fade>
+                        <img className="planningImage" src={MapsImagePath} alt="visual enhancer" />
+                    </Fade>
+                    <ComponentWrapper isVerticallyCentered={true} wrapperClass="blueWrapper">
+                        <li className="largeText">
                             <p className="listItemTitle">
                                 Test wireframes
                             </p>
@@ -65,8 +76,8 @@ class TaskTwoSubpage extends Component {
                             </p>
                         </li>
                     </ComponentWrapper>
-                    <ComponentWrapper wrapperClass="pinkWrapper">
-                        <li>
+                    <ComponentWrapper isVerticallyCentered={true} wrapperClass="pinkWrapper">
+                        <li className="largeText">
                             <p className="listItemTitle">
                                 Finetune designs
                             </p>
@@ -78,9 +89,9 @@ class TaskTwoSubpage extends Component {
                                 time and keep the code cleaner.
                             </p>
                         </li>
-                    </ComponentWrapper>                    
-                    <ComponentWrapper wrapperClass="blueWrapper">
-                        <li>
+                    </ComponentWrapper>   
+                    <ComponentWrapper isVerticallyCentered={true} wrapperClass="blueWrapper">
+                        <li className="largeText">
                             <p className="listItemTitle">
                                 Have a development kick-off meeting
                             </p>
@@ -99,8 +110,11 @@ class TaskTwoSubpage extends Component {
                             </p>
                         </li>
                     </ComponentWrapper>
-                    <ComponentWrapper wrapperClass="pinkWrapper">
-                        <li>
+                    <Fade>
+                        <img className="planningImage" src={ChartImagePath} alt="visual enhancer" />
+                    </Fade> 
+                    <ComponentWrapper isVerticallyCentered={true} wrapperClass="pinkWrapper">
+                        <li className="largeText">
                             <p className="listItemTitle">
                                 Complete tasks, but plan before writing code
                             </p>
@@ -111,8 +125,8 @@ class TaskTwoSubpage extends Component {
                             </p>
                         </li>
                     </ComponentWrapper>
-                    <ComponentWrapper wrapperClass="blueWrapper">
-                        <li>
+                    <ComponentWrapper isVerticallyCentered={true} wrapperClass="blueWrapper">
+                        <li className="largeText">
                             <p className="listItemTitle">
                                 Write Tests
                             </p>
@@ -125,8 +139,8 @@ class TaskTwoSubpage extends Component {
                             </p>
                         </li>
                     </ComponentWrapper>
-                    <ComponentWrapper wrapperClass="pinkWrapper">
-                        <li>
+                    <ComponentWrapper isVerticallyCentered={true} wrapperClass="pinkWrapper">
+                        <li className="largeText">
                             <p className="listItemTitle">
                                 QA
                             </p>
@@ -137,8 +151,11 @@ class TaskTwoSubpage extends Component {
                             </p>
                         </li>
                     </ComponentWrapper>
-                    <ComponentWrapper wrapperClass="blueWrapper">
-                        <li>
+                    <Fade>
+                        <img className="planningImage" src={CUImagePath} alt="visual enhancer" />
+                    </Fade>
+                    <ComponentWrapper isVerticallyCentered={true} wrapperClass="blueWrapper">
+                        <li className="largeText">
                             <p className="listItemTitle">
                                 Button everything up and launch
                             </p>
@@ -151,7 +168,7 @@ class TaskTwoSubpage extends Component {
                         </li>
                     </ComponentWrapper>
                 </ol>
-                <ComponentWrapper wrapperClass="pinkWrapper">
+                <ComponentWrapper isVerticallyCentered={true} wrapperClass="pinkWrapper">
                     <p>
                         Throughout many of the steps in this process, there is constant iteration. 
                         Often, a design isn’t approved right away and the code is rarely bug-free on the 

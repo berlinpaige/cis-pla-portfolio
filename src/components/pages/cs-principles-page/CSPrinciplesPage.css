@@ -1,0 +1,25 @@
+.csPrinciplesPage {
+    background: #dee6e8;
+    background: url(../../../assets/images/plantBackground.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*font-family: 'Oxygen', sans-serif;*/
+    font-family: 'Lato', sans-serif;
+    /*font-family: 'Exo', sans-serif;*/
+    /*font-family: 'Arima Madurai';*/
+    /*font-family: 'Bubbler One', sans-serif;*/
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.noBottomPadding {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.noTopPadding {
+    padding-top: 0;
+    margin-top: 0;
+}

@@ -1,4 +1,96 @@
 .navlinkCSPrinciples {
   display: inline-block;
   padding: 0.5rem 1rem;
+  width: 30%;
+}
+
+.csPrinHeader ul {
+    padding-left: 0;
+    padding-right: 6rem;
+}
+
+.navlinkCSPrinciples a {
+    color: #FFF;
+    text-decoration: none;
+    border-bottom: 1px solid #FFF;
+}
+
+.navlinkCSPrinciples a:hover {
+    border-bottom-color: transparent;
+    font-size: 1.5rem;
+
+    -webkit-transition: all 0.5s; /* Safari */
+    -moz-transition: all 0.5s; /* Firefox */
+    -ms-transition: all 0.5s; /* Internet Explorer */
+    -o-transition: all 0.5s; /* Opera */
+    transition: all 0.5s;
+}
+
+.csPrinHeader {
+    background-color: rgba(216,151,115, 0.4);
+    height: 20rem;
+    position: relative;
+}
+
+.CSPrinciplesHeaderText {
+    color: #FFF;
+    float: right;
+    margin-right: 1rem;
+    position: relative;
+    z-index: 2;
+}
+
+.visibleCSPrinciplesMenu {
+    opacity: 1;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%); /* Safari & Chrome */
+    -moz-transform: translateY(-50%); /* Firefox */
+    -ms-transform: translateY(-50%); /* Internet Explorer */
+    -o-transform: translateY(-50%); /* Opera */
+
+    -webkit-transition: left 1s, opacity 1s; /* Safari */
+    -moz-transition: left 1s, opacity 1s; /* Firefox */
+    -ms-transition: left 1s, opacity 1s; /* Internet Explorer */
+    -o-transition: left 1s, opacity 1s; /* Opera */
+    transition: left 1s, opacity 1s;
+}
+
+.hiddenCSPrinciplesMenu {
+    opacity: 0;
+    width: 100%;
+    left: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%); /* Safari & Chrome */
+    -moz-transform: translateY(-50%); /* Firefox */
+    -ms-transform: translateY(-50%); /* Internet Explorer */
+    -o-transform: translateY(-50%); /* Opera */
+}
+
+@media screen and (min-width: 500px) {
+    .navlinkCSPrinciples {
+      width: 12%;
+    }
+
+    .csPrinHeader {
+        height: 10rem;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .navlinkCSPrinciples {
+      width: auto;
+    }
+    .csPrinHeader {
+        height: 5rem;
+    }
+
+    .csPrinHeader ul {
+        padding-right: 0;
+    }
 }
