@@ -7,7 +7,12 @@ class WebDesignHome extends Component {
         return (
             <div>
                 <ComponentWrapper wrapperClass="blueWrapper" isHeader={true}>
-                    <h1>Add some text here</h1>
+                    <div>
+                        <h1>CIS 4041 - Web Design</h1>
+                        <p>Welcome to the Web Design section of my PLA portfolio site!
+                            This is a stylized version of the portfolio document. 
+                            Enjoy some color, interactivity, and creativity while evaluating!</p>
+                    </div>
                 </ComponentWrapper>
             </div>
         );

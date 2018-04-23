@@ -16,7 +16,7 @@ class TaskSevenSubpage extends Component {
                         <p className="largeText">I have created many sites based on client needs throughout my career.</p>
                         <p className="largeText">One of my favorite examples of this was a simple site that I created for 
                         American Airlines.</p>
-                        <a className="largeText" href="http://www.thebonnieaward.com/" target="_blank" rel="noopener noreferrer">www.thebonnieaward.com</a>
+                        <a className="externalLink largeText" target="_blank" rel="noopener noreferrer" href="http://www.thebonnieaward.com/" target="_blank" rel="noopener noreferrer">www.thebonnieaward.com</a>
                     </div>
                 </ComponentWrapper>
                 <Fade>

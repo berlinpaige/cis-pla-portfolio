@@ -29,7 +29,7 @@ class TaskEightSubpage extends Component {
                             </li>
                             <li>
                                 <p>A site that has few if any code changes once launched, but has 
-                                    continues content additions and updates</p>
+                                    continuous content additions and updates</p>
                             </li>
                             <li>
                                 <p>New Product features launched continuously</p>
@@ -39,8 +39,8 @@ class TaskEightSubpage extends Component {
                 </ComponentWrapper>
                 <ComponentWrapper isVerticallyCentered={true} wrapperClass="pinkWrapper">
                     <p>In the case of the campaign site that has no changes once launched, 
-                        this requires the least amount of maintenance. They often live for a 
-                        few months for the length of the campaign, then are removed from the 
+                        this requires the least amount of maintenance. A campaign site often lives for a 
+                        few months only for the length of the campaign, then it is removed from the 
                         internet forever. Some examples of sites that I have built that no longer 
                         live on the internet are a campaign site for Hotels.com and a campaign site 
                         for Braintree/Tour de Tech.</p>

@@ -9,8 +9,10 @@ class CSPrinciplesHome extends Component {
             <div>
                 <TitleWrapper 
                     imagePath={BinaryImagePath}
-                    titleText="Add a real title here"
-                    titleDescription="Add real text here"
+                    titleText="CIS 1001 - CS Principles"
+                    titleDescription="Welcome to the CS Principles section of my PLA portfolio site!
+                        This is a stylized version of the portfolio document. 
+                        Enjoy some color, interactivity, and creativity while evaluating!"
                 />
             </div>
         );
