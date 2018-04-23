@@ -5,6 +5,7 @@ import WebDesignPage from '../pages/web-design-page/WebDesignPage';
 import CSPrinciplesPage from '../pages/cs-principles-page/CSPrinciplesPage';
 
 import {
+    HOME_PATH,
     JAVA_PATH,
     CS_PRINCIPLES_PATH,
     WEB_DESIGN_PATH,

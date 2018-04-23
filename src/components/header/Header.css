@@ -1,4 +1,36 @@
-.navlink {
-  display: inline-block;
-  padding: 2rem;
+.mainHeader ul{
+    padding: 0;
+    margin: 0;
+}
+
+.navlinkMain {
+    display: inline-block;
+    padding: 1.5rem;
+}
+
+.navlinkMain a {
+    color: #ac8e9c;
+    text-decoration: none;
+    font-size: 1rem;
+    border-bottom: 2px solid transparent;
+}
+
+.navlinkMain a:hover {
+    border-bottom-color: #ac8e9c;
+    -webkit-transition: all 0.5s; /* Safari */
+    -moz-transition: all 0.5s; /* Firefox */
+    -ms-transition: all 0.5s; /* Internet Explorer */
+    -o-transition: all 0.5s; /* Opera */
+    transition: all 0.5s;
+}
+
+@media screen and (min-width: 700px) {
+    .navlinkMain {
+        padding: 2rem;
+    }
+
+    .navlinkMain a {
+        font-size: 1.5rem;
+    }
+
 }
