@@ -17,10 +17,10 @@ class TaskEightSubpage extends Component {
                     <div>
                         <p>Computation is any type of calculation that includes both arithmetic 
                             and non-arithmetic steps. It also follows a well-defined model 
-                            understood and described as, for example, an algorithm.</p>
+                            understood and described as an algorithm.</p>
                         <p className="noBottomPadding">We can think of a computational problem as a set of possible questions, 
                             each of which has a desired correct answer. We’ll call the information 
-                            in the specific question the input value(s) and the desired answer 
+                            in the specific question the input value(s), and the desired answer 
                             the output value. The notions of input and output are the most basic 
                             concepts of computation: computation is the process of deriving the 
                             desired output from a given input(s).</p>

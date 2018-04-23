@@ -67,7 +67,7 @@ Apple, Banana, Mango, Orange`}
                     </div>
                     <div>
                         <p className="noTopPadding">Let's design an algorithm!</p>
-                        <p>Based on the above information, we need to know the base salary, the number of 
+                        <p>Based on the previous slide's information, we need to know the base salary, the number of 
                             years the person has been with the company, and the total sales made by that 
                             person for the month. Let's create variables for the necessary values:</p>
                         <ul>

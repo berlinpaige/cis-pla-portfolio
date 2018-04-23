@@ -32,7 +32,7 @@ class TaskOneSubpage extends Component {
                     <ComponentWrapper wrapperClass="pinkWrapper" isVerticallyCentered={true}>
                         <div style={{width: '100%'}}>
                             <h3 className="largeText">A project example: </h3>
-                            <h2> <a href="https://ryder.com/">Ryder.com Website Link </a></h2>
+                            <h2> <a className="externalLink" target="_blank" rel="noopener noreferrer" href="https://ryder.com/">Ryder.com Website Link </a></h2>
                         </div>
                     </ComponentWrapper>
                     <Fade>

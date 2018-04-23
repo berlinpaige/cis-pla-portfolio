@@ -28,7 +28,7 @@ class TaskFiveSubpage extends Component {
                         required unique navigation, but I think the following project is a good example 
                         to describe the process of designing the right navigation.</p>
                         <p>Ice Breaker's Website for Hershey: 
-                            <a href="https://www.hersheys.com/icebreakers">www.hersheys.com/icebreakers</a>
+                            <a className="externalLink" target="_blank" rel="noopener noreferrer" href="https://www.hersheys.com/icebreakers"> www.hersheys.com/icebreakers</a>
                         </p>
                     </div>
                 </ComponentWrapper>
@@ -50,7 +50,7 @@ class TaskFiveSubpage extends Component {
                 <ComponentWrapper isVerticallyCentered={true} wrapperClass="pinkWrapper">
                     <div>
                         <p className="largeText">The Solution:</p>
-                        <p className="largeText">I had access to a navigation component the I was able to use for the main navigation. 
+                        <p className="largeText">I had access to a navigation component that I was able to use for the main navigation. 
                             This included the "home", "products", and "about" pages. That section was fairly 
                             straightforward.</p>
                     </div>
@@ -73,8 +73,8 @@ class TaskFiveSubpage extends Component {
                             <li>Select Fruity from the tabbed navigation on the Ice Cubes page</li>
                             <li>Select the bubble gum flavor which navigates you to the Ice Breakers Ice Cubes Bubble Breeze Gum page</li>
                         </ol>
-                        <p>You can additionally navigate from a direct link:
-                            <a href="https://www.hersheys.com/icebreakers/en_us/products/ice-cubes-bubble-breeze.html">Click here</a>
+                        <p>You can additionally navigate from a direct link: 
+                            <a className="externalLink" target="_blank" rel="noopener noreferrer" href="https://www.hersheys.com/icebreakers/en_us/products/ice-cubes-bubble-breeze.html"> Click here</a>
                         </p>
                     </div>
                 </ComponentWrapper>
@@ -82,9 +82,12 @@ class TaskFiveSubpage extends Component {
                     <ReactPlayer url={IBVideoPath} playing loop={true}/>
                 </ComponentWrapper>
                 <ComponentWrapper isVerticallyCentered={true} wrapperClass="pinkWrapper">
-                    <p className="largeText">And finally, I needed to build a way to navigate off-site for additional promotions. 
-                        I also built this using components with a clickable wrapper. Currently, this page is 
-                        being navigated to via a clickable image poorly disguised as a link on the homepage.</p>
+                    <div>
+                        <p className="largeText">And finally, I needed to build a way to navigate off-site for additional promotions. 
+                            I also built this using components with a clickable wrapper. Currently, this page is 
+                            being navigated to via a clickable image poorly disguised as a link on the homepage.</p>
+                        <a className="externalLink" target="_blank" rel="noopener noreferrer" href="http://icebreakersunicorn.tumblr.com/awesomeness"> Check it out</a>
+                    </div>
                 </ComponentWrapper>
                 <ComponentWrapper isVerticallyCentered={true} wrapperClass="blueWrapper">
                     <div>

@@ -22,8 +22,8 @@ class TaskTenSubpage extends Component {
                             to create a functioning product used by tens of thousands of 
                             people daily.</p>
                     </div>
-                    <p className="noBottomPadding">Let's take a peek at our membership site experience (because this is 
-                        the site I've completed the most work on). <a href="https://unlimited.craftsy.com/">unlimited.craftsy.com</a></p>
+                    <p>Let's take a peek at our membership site experience (because this is 
+                        the site I've completed the most work on): <a className="embeddedLink" href="https://unlimited.craftsy.com/">unlimited.craftsy.com</a></p>
                     <p className="noBottomPadding">The home page alone has been a collaboration across many 
                         teams and people. The page is built using a component 
                         structure that allows for the content team to mix and 

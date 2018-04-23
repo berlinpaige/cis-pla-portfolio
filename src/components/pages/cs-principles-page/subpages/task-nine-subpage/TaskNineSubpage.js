@@ -12,7 +12,7 @@ class TaskNineSubpage extends Component {
                     imagePath={InternetImagePath}
                     titleText="Objective Nine"
                     titleDescription="Explain how the Internet functions, including underlying abstractions, cybersecurity 
-                    concerns,and how its characteristics influence systems built on it"
+                    concerns, and how its characteristics influence systems built on it"
                 />
                 <CarouselWrapper>
                     <p className="noBottomPadding">The Internet is a network of independent computers and other hardware 

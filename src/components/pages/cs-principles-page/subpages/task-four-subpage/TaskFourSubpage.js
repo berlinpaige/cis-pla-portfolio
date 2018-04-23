@@ -41,7 +41,7 @@ class TaskFourSubpage extends Component {
                             the eights place represents eight, so the answer is 
                             1+2+0+8 = 11.</p>
                     </div>
-                    <p>But in our everyday use with computers, we don't really see binary 
+                    <p>But in our everyday use of computers, we don't really see binary 
                         since it is happening behind the scenes. Instead, we interact 
                         with images, text, colors, etc. So how is an image represented 
                         in binary?</p>

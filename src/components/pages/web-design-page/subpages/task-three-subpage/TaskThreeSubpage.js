@@ -53,7 +53,7 @@ class TaskThreeSubpage extends Component {
                     environment. Therefore, we are investing time and resources to build robust methods 
                     of engagement in the unlimited site. We can then use these community pieces to drive 
                     traffic to additional money-earning areas of the site, and keep users engaged to 
-                    promote continued subscriptions and world-of-mouth acquisitions.</p>
+                    promote continued subscriptions and word-of-mouth acquisitions.</p>
                 </ComponentWrapper>
             </div>
         );

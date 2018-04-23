@@ -23,7 +23,7 @@ class TaskSevenSubpage extends Component {
                         that mitigates the error risk.</p>
                     <div>
                         <p>Even though there are many ways to solve a problem, the approach 
-                            you take must correctly use all concepts and techniques</p>
+                            you take must correctly use all concepts and techniques.</p>
                         <p>Let's take a look at an example:</p>
                         <p>Problem: Using java, print out the letter grade associated 
                         with the int value input.</p>
@@ -71,7 +71,7 @@ default:
                             unintended lines.</p>
                         <p className="noBottomPadding">The correct program is as follows:</p>
                     </div>
-                    <pre className="smallerText noBottomPadding noTopPadding smallestText">
+                    <pre className="smallestText noBottomPadding noTopPadding smallestText">
 {`
 switch (grade)
 {

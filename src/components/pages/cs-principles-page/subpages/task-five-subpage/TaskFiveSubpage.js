@@ -17,9 +17,9 @@ class TaskFiveSubpage extends Component {
                     <p>Abstraction reduces information and detail to facilitate focus 
                         on relevant concepts. Multiple levels of abstraction are used 
                         in computation. Binary data is processed by physical layers of 
-                        computing hardware, including gates, chips, and components, 
-                        programming languages, from low to high level, are used in 
-                        developing software, and applications and systems are designed, 
+                        computing hardware, including gates, chips, and components. 
+                        Programming languages, from low to high level, are used in 
+                        developing software. Applications and systems are designed, 
                         developed, and analyzed using levels of hardware, software, 
                         and conceptual abstractions.</p>
                     <p>Models and simulations use abstraction to raise and answer 
