@@ -8,7 +8,9 @@ import TaskFiveSubpage from '../subpages/task-five-subpage/TaskFiveSubpage';
 import TaskSixSubpage from '../subpages/task-six-subpage/TaskSixSubpage';
 import TaskSevenSubpage from '../subpages/task-seven-subpage/TaskSevenSubpage';
 import TaskEightSubpage from '../subpages/task-eight-subpage/TaskEightSubpage';
+import WebDesignHome from '../WebDesignHome/WebDesignHome';
 import {
+    WEB_DESIGN_PATH,
     WEB_DESIGN_TASK_ONE_PATH,
     WEB_DESIGN_TASK_TWO_PATH,
     WEB_DESIGN_TASK_THREE_PATH,
@@ -24,6 +26,7 @@ import './WebDesignMain.css';
 const WebDesignMain = () => (
     <div>
         <Switch>
+            <Route exact path={WEB_DESIGN_PATH.path} component={WebDesignHome}/>
             <Route path={WEB_DESIGN_TASK_ONE_PATH.path} component={TaskOneSubpage}/>
             <Route path={WEB_DESIGN_TASK_TWO_PATH.path} component={TaskTwoSubpage}/>
             <Route path={WEB_DESIGN_TASK_THREE_PATH.path} component={TaskThreeSubpage}/>
