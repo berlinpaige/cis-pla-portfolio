@@ -5,6 +5,26 @@ export const HOME_PATH = {
     linkName: "Home",
 };
 
+export const WORK_PATH = {
+    path: "/work",
+    linkName: "Work",
+};
+
+export const ABOUT_PATH = {
+    path: "/about",
+    linkName: "About",
+};
+
+export const CONTACT_PATH = {
+    path: "/contact",
+    linkName: "Contact",
+};
+
+export const RESUME_PATH = {
+    path: "/resume",
+    linkName: "Resume",
+};
+
 //web design
 export const WEB_DESIGN_PATH = {
     path: "/webdesign",
@@ -178,7 +198,11 @@ export const CS_PRINCIPLES_NAVIGATION_LIST = [
 
 export const MAIN_NAVIGATION_LIST = [
     HOME_PATH,
-    CS_PRINCIPLES_PATH,
-    WEB_DESIGN_PATH,
+    WORK_PATH,
+    ABOUT_PATH,
+    CONTACT_PATH,
+    RESUME_PATH,
+    // CS_PRINCIPLES_PATH,
+    // WEB_DESIGN_PATH,
     // JAVA_PATH,
 ];
