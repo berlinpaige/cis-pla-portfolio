@@ -1,0 +1,18 @@
+.timelineWrapper {
+    position: relative;
+    width: 100%;
+}
+
+.timeline {
+    position: absolute;
+    width: 1rem;
+    height: 100%;
+    background-color: black;
+    left: 50%;
+
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%); /* Safari & Chrome */
+    -moz-transform: translateX(-50%); /* Firefox */
+    -ms-transform: translateX(-50%); /* Internet Explorer */
+    -o-transform: translateX(-50%); /* Opera */
+}

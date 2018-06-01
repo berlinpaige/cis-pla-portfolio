@@ -1,0 +1,49 @@
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.contentWrapper {
+    max-width: 50rem;
+    margin: 0 auto;
+    position: relative;
+    padding: 2rem;
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    display : flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items : center;
+    background-color: transparent;
+}
+
+.card {
+    width: 30rem;
+    background-color: #FFF;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.header {
+    color: #89717c;
+}
+
+.isVerticallyCentered {
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    display : flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items : center;
+}
