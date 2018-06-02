@@ -23,7 +23,7 @@ import {
 const Main = () => (
     <div>
         <Switch>
-            <Route exact path={HOME_PATH.path} component={HomePage}/>
+            <Route exact path={HOME_PATH.path} component={WorkPage}/>
             <Route exact path={WORK_PATH.path} component={WorkPage}/>
             <Route exact path={ABOUT_PATH.path} component={AboutPage}/>
             <Route exact path={CONTACT_PATH.path} component={ContactPage}/>
