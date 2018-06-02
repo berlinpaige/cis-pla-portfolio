@@ -1,3 +1,42 @@
+.contactMain {
+    padding: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contactMain h2, .contactMain h4 {
+    text-align: left;
+}
+
+.leftPanel {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.rightPanel {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.contactImageText {
+    margin-bottom: 0;
+}
+
+.socialIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom:  1.6rem;
+}
+
+.socialIcons a {
+    color: rgba(0,0,0,.4);
+    padding: 0 0.4rem;
+}
+
+
 .formInput {
     width: 100%;
     padding: 12px;
@@ -16,6 +55,7 @@
     width: 100%;
     text-align: left;
     display: block;
+    color: rgba(0,0,0,.4);
 }
 
 .inputWrapper {
@@ -23,7 +63,7 @@
 }
 
 .formWrapper {
-    padding: 2.4rem;
+    padding: 2.4rem 0;
 }
 
 .button {
@@ -38,4 +78,40 @@
     cursor: pointer;
     outline: none;
     border-radius: 300px;
+}
+
+.contactImage {
+    width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+    .contactMain {
+        flex-direction: row;
+    }
+
+    .socialIcons {
+        justify-content: flex-end;
+    }
+
+    .rightPanel {
+        margin-left: 2.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .formWrapper {
+        padding: 2.4rem 0 0;
+    }
+
+    .contactImage {
+        max-width: 350px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .rightPanel {
+        flex-grow: 0;
+        flex-basis: auto;
+    }
 }
