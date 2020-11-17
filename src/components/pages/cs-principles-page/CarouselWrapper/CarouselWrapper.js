@@ -34,7 +34,7 @@ const Carousel = ({children, height}) => {
 const CarouselWrapper = (props) => {
     return (
         <div>
-            <div className="carouselWrapper isSmall">
+            <div className="carouselWrapper isSmall test">
                 <Carousel {...props} height={70}/>
             </div>
             <div className="carouselWrapper isMedium">
